@@ -43,7 +43,7 @@ function LevelMaker.createMap(level)
   -- code for making blocked blocks
 
 
- local blockedBrickCount =  1--math.min(5, math.floor( math.random(level)/2))
+ local blockedBrickCount = math.min(5, math.floor( math.random(level)/2))
 
 
     -- highest possible spawned brick color in this level; ensure we
